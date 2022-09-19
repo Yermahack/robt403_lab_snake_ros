@@ -22,7 +22,9 @@ To get started with the Planar Robot:
 
 ### Task 3 - Get the sine wave response of joints
 "Get the sine-wave response of (you can create a node that will send a sine-wave
-function):"
+function):
+1. the joint at the base of the robot
+2. the joint at the end-effector of the robot"
 
 
 ### Lab 3 Video: Tasks 1-3:
