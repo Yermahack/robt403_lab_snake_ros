@@ -32,16 +32,3 @@ function):
 https://www.youtube.com/watch?v=PnbofYthCl8
 
 
-The robot moved 
-
-
-
-
-
-```c++
-code can be 
-inserted like 
-this
-if (code):
-  do stuff
-```
