@@ -1,7 +1,9 @@
 # robt403_lab_snake_ros
 
-# heading
-## smaller heading
+## big heading
+### smaller heading
+### pretty average
+#### "no chances" heading
 
 ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
