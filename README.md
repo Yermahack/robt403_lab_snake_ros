@@ -22,7 +22,7 @@ To get started with the Planar Robot:
 
 
 ### Lab 3 Video: Tasks 1-3:
-
+https://www.youtube.com/watch?v=PnbofYthCl8
 
 
 The robot moved 
