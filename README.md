@@ -30,7 +30,7 @@ To get started with the Planar Robot:
 ### Screenshot Demo: Task 2
 **Step response plot of the end-effector joint**
 
-Here is the step response for end joint. As it is visible in the step response plot, the movement of the joint at the base of the robot is going with a delay, therefore its goal position is not following the current position. The reasoning is the velocity of a real robot is not infinite. 
+Here is the step response for the end joint. As it is visible in the step response plot, the current position is following the goal position with a delay. The reason for that is the goal position changes instantly from 0 to 1 or from 1 to 0 and the velocity of the real robot cannot be infinite. 
 
 ![Lab3_Task2_StepResponse_EndJoint](https://user-images.githubusercontent.com/38093116/191019690-93a62df0-6ef9-4f89-9dfa-9886aae017fa.png)
 
