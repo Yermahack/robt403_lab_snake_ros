@@ -34,10 +34,11 @@ To get started with the Planar Robot:
 
 **Step response plot of the start joint**
 
+Here is the step response for end joint. As it is visible in the step response plot, the movement of the joint at the base of the robot is going with a delay, therefore its goal position is not following the current position. The reasoning is the velocity of a real robot is not infinite. 
+
 ![Lab3_Task2_StepResponse_BaseJoint](https://user-images.githubusercontent.com/38093116/191019697-5098343f-fda0-4e75-9db1-c217249b627a.png)
 
-As it is visible in the step response plot, the movement of the joint at the base of the robot is slower than expected. Its goal position is not following the current position. The reasoning is the velocity of a real robot is not infinite. 
-In comparison, when we look at the step response plot of the joint at the robot’s end-effector, the error gaps become visibly bigger. This happens due to the mass of the real robot. It is heavier, thus slower, than just the movement of the single base joint of the robot.
+In comparison, here is the step response for base joint.  As we look at the step response plot of the joint at the robot’s end-effector, the error gaps become visibly bigger. This happens due to the mass comparision, in the position of base joint, the mass is heavier, thus the response is slower, while the mass in end joint much easier. 
 
 ### Task 3 - Get the sine wave response of joints
 "Get the sine-wave response of (you can create a node that will send a sine-wave
