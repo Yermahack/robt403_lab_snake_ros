@@ -50,7 +50,7 @@ function):
 
 ![Lab3_Task3_SineResponse_StartJoint](https://user-images.githubusercontent.com/38093116/191019731-1d5a340e-ecf4-4176-912b-1479897292d8.png)
 
-Comparing these two graphs, we can see that current position is closer to goal position on end joint due to joint moving lower weight. However, the difference are not as drastical as in the step response graph
+Comparing these two graphs, we can see that current position is closer to goal position on end joint due to joint having to move lower weight. However, the difference are not as drastical as in the step response graph
 
 ### Lab 3 Video: Tasks 1-3:
   The following link directs to the video demo of working snake robot for each task.
