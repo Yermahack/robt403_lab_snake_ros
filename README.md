@@ -20,6 +20,8 @@ To get started with the Planar Robot:
 
 ![Screenshot from 2022-09-19 17-32-07](https://user-images.githubusercontent.com/38093116/191008124-7cea812c-dfe6-4c86-89e4-6124fec03f1e.png)
 
+### Task 2
+
 ### Task 3 - Get the sine wave response of joints
 "Get the sine-wave response of (you can create a node that will send a sine-wave
 function):
