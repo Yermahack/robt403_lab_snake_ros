@@ -30,6 +30,8 @@ To get started with the Planar Robot:
 ### Screenshot Demo: Task 2
 
 ![Lab3_Task2_StepResponse_EndJoint](https://user-images.githubusercontent.com/38093116/191019690-93a62df0-6ef9-4f89-9dfa-9886aae017fa.png)
+ Here is the step response for End Joint. In the graph we can see that the current position of the state comes with a delay. 
+
 ![Lab3_Task2_StepResponse_BaseJoint](https://user-images.githubusercontent.com/38093116/191019697-5098343f-fda0-4e75-9db1-c217249b627a.png)
 
 
@@ -47,7 +49,7 @@ function):
 ### Lab 3 Video: Tasks 1-3:
   The following link directs to the video demo of working snake robot for each task.
 
-[![IMAGE ALT TEXT HERE]([https://img.youtube.com/vi/PnbofYthCl8/1.jpg)](https://www.youtube.com/watch?v=PnbofYthCl8))
+[![IMAGE ALT TEXT HERE]([https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=PnbofYthCl8))
 https://www.youtube.com/watch?v=PnbofYthCl8
 
 
