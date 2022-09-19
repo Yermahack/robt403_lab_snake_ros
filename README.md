@@ -20,7 +20,7 @@ To get started with the Planar Robot:
 
 ![Lab3_Task1](https://user-images.githubusercontent.com/38093116/191019623-1964f711-a30c-46e3-9a59-623d698141a2.png)
 
-### Task 2 - Send step response to planar robot
+### Task 2 - Get the step response
 "Get the step response of (you can create a node that will send a square-wave function):
 
 1. the joint at the base of the robot 
@@ -40,15 +40,15 @@ function):
 
 2. the joint at the end-effector of the robot"
 
-**Sine function on end joint response graph**
+
 ![Lab3_Task3_SineResponse_EndJoint](https://user-images.githubusercontent.com/38093116/191019723-5ff0b2fe-386e-4862-81f9-b18344b1bb58.png)
-**Sine function on start joint response graph**
-[Lab3_Task3_SineResponse_StartJoint](https://user-images.githubusercontent.com/38093116/191019731-1d5a340e-ecf4-4176-912b-1479897292d8.png)
+![Lab3_Task3_SineResponse_StartJoint](https://user-images.githubusercontent.com/38093116/191019731-1d5a340e-ecf4-4176-912b-1479897292d8.png)
 
 ### Lab 3 Video: Tasks 1-3:
   The following link directs to the video demo of working snake robot for each task.
 
-[![IMAGE ALT TEXT HERE]([https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=PnbofYthCl8))
+[![IMAGE ALT TEXT HERE]([https://img.youtube.com/vi/PnbofYthCl8/0.jpg)](https://www.youtube.com/watch?v=PnbofYthCl8))
 https://www.youtube.com/watch?v=PnbofYthCl8
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/PnbofYthCl8/0.jpg)](https://www.youtube.com/watch?v=PnbofYthCl8)
 
