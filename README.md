@@ -30,13 +30,14 @@ To get started with the Planar Robot:
 ### Screenshot Demo: Task 2
 **Step response plot of the end-effector joint**
 
-Here is the step response for the end joint. As it is visible in the step response plot, the current position is following the goal position with a delay. The reason for that is the goal position changes instantly from 0 to 1 or from 1 to 0 and the velocity of the real robot cannot be infinite. 
+Here is the step response for the end joint. As it is visible in the step response plot, the current position is following the goal position with a delay. The reason for that is the goal position changes instantly from 0 to 1 or from 1 to 0 and the velocity of the real robot cannot be infinite. Therefore, we can see the delay in the joint movement. 
 
 ![Lab3_Task2_StepResponse_EndJoint](https://user-images.githubusercontent.com/38093116/191019690-93a62df0-6ef9-4f89-9dfa-9886aae017fa.png)
 
 **Step response plot of the start joint**
 
-In comparison, here is the step response for base joint.  As we look at the step response plot of the joint at the robot’s end-effector, the error gaps become visibly bigger. This happens due to the mass comparision, in the position of base joint, the mass is heavier, thus the response is slower, while the mass in end joint much easier. 
+In comparison, here is the step response for base joint.  As we look at the step response plot of the joint at the robot’s start (base) joint, the error gaps become visibly bigger compared to the end-effector joint. This happens due to the difference in the mass, in the position of the base joint, the mass is heavier, thus the response is slower, while the mass in the end joint is more lightweight.
+
 ![Lab3_Task2_StepResponse_BaseJoint](https://user-images.githubusercontent.com/38093116/191019697-5098343f-fda0-4e75-9db1-c217249b627a.png)
 
 
