@@ -36,7 +36,7 @@ Here is the step response for the end joint. As it is visible in the step respon
 
 **Step response plot of the start joint**
 
-In comparison, here is the step response for base joint.  As we look at the step response plot of the joint at the robot’s start (base) joint, the error gaps become visibly bigger compared to the end-effector joint. This happens due to the difference in the mass, in the position of the base joint, the mass is heavier, thus the response is slower, while the mass in the end joint is more lightweight.
+In comparison, here is the step response for base joint.  As we look at the step response plot of the joint at the robot’s start (base) joint, the error gaps become visibly bigger compared to the end-effector joint. This happens due to the difference in the mass: in the position of the base joint, the mass is heavier, thus the response is slower; while the mass in the end joint is more lightweight and the response is faster. 
 
 ![Lab3_Task2_StepResponse_BaseJoint](https://user-images.githubusercontent.com/38093116/191019697-5098343f-fda0-4e75-9db1-c217249b627a.png)
 
