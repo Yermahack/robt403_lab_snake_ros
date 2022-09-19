@@ -45,6 +45,8 @@ function):
 [Lab3_Task3_SineResponse_StartJoint](https://user-images.githubusercontent.com/38093116/191019731-1d5a340e-ecf4-4176-912b-1479897292d8.png)
 
 ### Lab 3 Video: Tasks 1-3:
+  The following link directs to the video demo of working snake robot for each task.
+
 [![IMAGE ALT TEXT HERE]([https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=PnbofYthCl8))
 https://www.youtube.com/watch?v=PnbofYthCl8
 
