@@ -42,4 +42,6 @@ function):
 [![IMAGE ALT TEXT HERE]([https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg](https://www.youtube.com/watch?v=PnbofYthCl8))
 https://www.youtube.com/watch?v=PnbofYthCl8
 
+### Lab 3 Video: Tasks 1-3 Code Explained
+https://youtu.be/PwkaDWMSovA
 
