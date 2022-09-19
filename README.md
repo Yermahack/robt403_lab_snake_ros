@@ -1,4 +1,4 @@
-# robt403_lab_snake_ros
+# [ROBT 403] Laboratory
 
 ## big heading
 ### smaller heading
