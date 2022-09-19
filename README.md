@@ -47,7 +47,7 @@ function):
 ### Lab 3 Video: Tasks 1-3:
   The following link directs to the video demo of working snake robot for each task.
 
-[![IMAGE ALT TEXT HERE]([https://img.youtube.com/vi/PnbofYthCl8/1.jpg)](https://www.youtube.com/watch?v=PnbofYthCl8))
+[![IMAGE ALT TEXT HERE]([https://img.youtube.com/vi/PnbofYthCl8/0.jpg)](https://www.youtube.com/watch?v=PnbofYthCl8))
 https://www.youtube.com/watch?v=PnbofYthCl8
 
 
