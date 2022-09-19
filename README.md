@@ -7,7 +7,8 @@ The project was implemented on Ubuntu 18.04.6 LTS machine with ROS Melodic. To b
 
   - git clone [https://github.com/KNurlanZ/snake-noetic.git](https://github.com/KNurlanZ/snake-noetic.git)
 
-The Planar Robot 
+#### The Planar Robot 
+
 ![Screenshot from 2022-09-19 17-37-46](https://user-images.githubusercontent.com/38093116/191009069-46c30621-b5c7-406c-ab96-3687db1c58d4.png)
 
 
