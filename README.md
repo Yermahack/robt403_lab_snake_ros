@@ -1,4 +1,4 @@
-# [ROBT 403] Laboratory
+# ROBT 403: Laboratory
 
 ## big heading
 ### smaller heading
