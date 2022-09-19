@@ -57,9 +57,9 @@ function):
 Comparing these two graphs, we can see that current position is closer to goal position on end joint due to joint having to move lower weight. However, the difference are not as drastical as in the step response graph
 
 ### Lab 3 Video: Tasks 1-3:
-  The following link directs to the video demo of working snake robot for each task.
+  The following two image links direct to the video demo of working snake robot and code explanation for each task.
+#### Demo of the robot (click on the image):
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/PnbofYthCl8/0.jpg)](https://www.youtube.com/watch?v=PnbofYthCl8)
 
-[![IMAGE ALT TEXT HERE]([https://img.youtube.com/vi/PnbofYthCl8/1.jpg)](https://www.youtube.com/watch?v=PnbofYthCl8))
-https://www.youtube.com/watch?v=PnbofYthCl8
-
-
+#### Explanation of the code (click on the image):
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/PwkaDWMSovA/0.jpg)](https://www.youtube.com/watch?v=PwkaDWMSovA)
