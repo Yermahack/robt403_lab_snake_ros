@@ -18,7 +18,6 @@ To get started with the Planar Robot:
 
 ### Screenshot Demo: Task 1
 
-![Screenshot from 2022-09-19 17-32-07](https://user-images.githubusercontent.com/38093116/191008124-7cea812c-dfe6-4c86-89e4-6124fec03f1e.png)
 ![Lab3_Task1](https://user-images.githubusercontent.com/38093116/191019623-1964f711-a30c-46e3-9a59-623d698141a2.png)
 
 ### Task 2 - Get the step response
