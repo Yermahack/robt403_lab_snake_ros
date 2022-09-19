@@ -40,14 +40,17 @@ function):
 
 2. the joint at the end-effector of the robot"
 
-
+**Sine function on end joint response graph**
 ![Lab3_Task3_SineResponse_EndJoint](https://user-images.githubusercontent.com/38093116/191019723-5ff0b2fe-386e-4862-81f9-b18344b1bb58.png)
+**Sine function on start joint response graph**
 ![Lab3_Task3_SineResponse_StartJoint](https://user-images.githubusercontent.com/38093116/191019731-1d5a340e-ecf4-4176-912b-1479897292d8.png)
 
-### Lab 3 Video: Tasks 1-3:
-  The following two image links direct to the video demo of working snake robot and code explanation for each task.
-#### Demo of the robot (click on the image):
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/PnbofYthCl8/0.jpg)](https://www.youtube.com/watch?v=PnbofYthCl8)
+Comparing these two graphs, we can see that current position is closer to goal position on end joint due to joint moving lower weight. However, the difference are not as drastical as in the step response graph
 
-#### Explanation of the code (click on the image):
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/PwkaDWMSovA/0.jpg)](https://www.youtube.com/watch?v=PwkaDWMSovA)
+### Lab 3 Video: Tasks 1-3:
+  The following link directs to the video demo of working snake robot for each task.
+
+[![IMAGE ALT TEXT HERE]([https://img.youtube.com/vi/PnbofYthCl8/1.jpg)](https://www.youtube.com/watch?v=PnbofYthCl8))
+https://www.youtube.com/watch?v=PnbofYthCl8
+
+
