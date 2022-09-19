@@ -28,12 +28,16 @@ To get started with the Planar Robot:
 2. the joint at the end-effector of the robot"
 
 ### Screenshot Demo: Task 2
+**Step response plot of the end-effector joint**
 
 ![Lab3_Task2_StepResponse_EndJoint](https://user-images.githubusercontent.com/38093116/191019690-93a62df0-6ef9-4f89-9dfa-9886aae017fa.png)
+
+**Step response plot of the start joint**
+
 ![Lab3_Task2_StepResponse_BaseJoint](https://user-images.githubusercontent.com/38093116/191019697-5098343f-fda0-4e75-9db1-c217249b627a.png)
 
-"As it is visible in the step response plot, the movement of the joint at the base of the robot is slower than expected. Its goal position is not following the current position. The reasoning is the velocity of a real robot is not infinite. 
-In comparison, when we look at the step response plot of the joint at the robot’s end-effector, the error gaps become visibly bigger. This happens due to the mass of the real robot. It is heavier, thus slower, than just the movement of the single base joint of the robot."
+As it is visible in the step response plot, the movement of the joint at the base of the robot is slower than expected. Its goal position is not following the current position. The reasoning is the velocity of a real robot is not infinite. 
+In comparison, when we look at the step response plot of the joint at the robot’s end-effector, the error gaps become visibly bigger. This happens due to the mass of the real robot. It is heavier, thus slower, than just the movement of the single base joint of the robot.
 
 ### Task 3 - Get the sine wave response of joints
 "Get the sine-wave response of (you can create a node that will send a sine-wave
@@ -50,7 +54,7 @@ function):
 
 ![Lab3_Task3_SineResponse_StartJoint](https://user-images.githubusercontent.com/38093116/191019731-1d5a340e-ecf4-4176-912b-1479897292d8.png)
 
-Comparing these two graphs, we can see that current position is closer to goal position on end joint due to joint having to move lower weight. However, the difference are not as drastical as in the step response graph. Moreover, the unsmoothness of the goal position graph is caused by real time function, which we used to generate the sine function. 
+Comparing these two graphs, we can see that current position is closer to goal position on end joint due to joint having to move lower weight. However, the difference are not as drastical as in the step response graph
 
 ### Lab 3 Video: Tasks 1-3:
   The following link directs to the video demo of working snake robot for each task.
