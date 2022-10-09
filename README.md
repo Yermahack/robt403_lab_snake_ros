@@ -70,6 +70,7 @@ Comparing these two graphs, we can see that current position is closer to goal p
 
 ## Laboratory 4 
 ### Task 1 - Configure MoveIt library
+Configuration Folder is "new_pack"
 
 ### Task 2 - Create a node moves the “end” by 1.4 (in rviz units mm or m) along X axis
 
