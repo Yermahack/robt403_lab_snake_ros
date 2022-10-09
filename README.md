@@ -69,21 +69,11 @@ Comparing these two graphs, we can see that current position is closer to goal p
 
 
 ## Laboratory 4 
-
-**Introduction**
-This laboratory is aimed to introduce students to MoveIt library for Cartesian Pose Control in ROS. In this report, firstly, after installing we will show how we configured MoveIt for our snake robot.  Next, there will be examples of the robot's movemnet in the Cartesian Space. For that cases we created a node that moves the "end" by 1.4 alox X axis and a node that moves "end" to draw a rectangle and a circle. 
-
 **Task 1**: Configure MoveIt library  Configuration Folder is **new_pack**
 
-MoveIt is a useful library that calculates DK and IK for varying systems. As we have a 5-DOF planar robot, it will have much more calculations to move a robot to a certain location, which is simplified thanks to this library. In order to configure the package for our robot, we followed the steps shown in the MoveIt SetUp Assistant tutorial. After creating the new Moveit configuration package, we adjusted all the settings of the assistant and exited the assistant. Then we launched RViz and followed the visualization. The path was calculated and the movement was simulated by MoveIt. Thereafter connecting our real controllers with MoveIt, we finally completed the controller's configuration. 
-
-After finishing the configuring part with the controllers, we need to modify some files in the MoveIt package. First, we added a new file called "joint names" and "controllers real" with the same content as in "controllers real" and changed content of "hand tutorial moveit controller manager".
-So, after these configuration steps everything was ready for compiling our catkin workspace. We launched start "moveit arm controllers.launch"), which loads our Joint Trajectory Controllers. Then, roslaunched "moveit planning execution.launch" file, where Rviz showed up and allowed us to move the robot in both in Rviz and in the real world. 
-
-
-
 ### Task 2 - Create a node moves the “end” by 1.4 (in rviz units mm or m) along X axis
-
+For the manipulator to make a move along the X axis, we used the provided code and changed the target position into the desired one, 1.4. 
 ### Task 3 - Create a node that moves “end” to Draw a rectangle
-
+In order to draw rectangle we put 4 target points for the manipulator, the same method as for the previous task is used to set the target points, they are as follows: 0.5 in X axis, -1 by Y, -0.5 by X, and 0.5 by Y. At last code checks if the manipulator reached the desired position and breaks. Manipulator starts off straight, draws a rectangle and returns to the starting point. 
 ### Task 4 - Create a node that moves “end” to Draw a circle
+For the circle, we first set the radius of it. We also use the radius to give the circle center point. We start a while loop which depends on the variable “angle”, which iterates every movement by some angle. We used an iteration of 30 degrees for each movement. When the degrees reach and get over 360, which means it made a full circle, it stops. The cosine and sine are used to set target position points for the X and Y axis respectively.   
