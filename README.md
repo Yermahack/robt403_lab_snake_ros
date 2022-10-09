@@ -66,3 +66,13 @@ Comparing these two graphs, we can see that current position is closer to goal p
 
 #### Explanation of the code (click on the image):
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/PwkaDWMSovA/0.jpg)](https://www.youtube.com/watch?v=PwkaDWMSovA)
+
+
+## Laboratory 4 
+### Task 1 - Configure MoveIt library
+
+### Task 2 - Create a node moves the “end” by 1.4 (in rviz units mm or m) along X axis
+
+### Task 3 - Create a node that moves “end” to Draw a rectangle
+
+### Task 4 - Create a node that moves “end” to Draw a circle
