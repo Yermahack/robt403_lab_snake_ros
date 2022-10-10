@@ -2,7 +2,7 @@
 
 **Group members:**
 
-**Yermakhan Kassym, Madina Yergibay, Akbayan Bakytzhanova, Soibkhon Khajikhan, Symbat Nurgazy.**
+**Yermakhan Kassym, Madina Yergibay, Akbayan Bakytzhanova, Soibkhon Khajikhanov, Symbat Nurgazy.**
 
 
 
