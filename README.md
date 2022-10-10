@@ -123,8 +123,18 @@ l o o p r a t e . s l e e p ( ) ;
 Then the code was run and ”rosbag record /end pub x” and ”rosbag record /end pub y” to create
 new .bag files.
 
-### Convert the rosbag file to CSV
+### Task 2.2 Convert the rosbag file to CSV
 
 To convert the .bag files created previously, the command ”rostopic echo -b my bag.bag /my topic name > my csv.csv” was used. The created bag files and the .csv files are seen on Figure below:
+
+
+
+### Task 2.3 Import the CSV file into Matlab and show the joint angles in one plot the position in x and y in another plot
+The csv files for joint angles is ”joint statesdata.csv” and for x- and y-position of end-effector are
+”our x.csv” and ”our y.csv”. The MATLAB code is written to import the CSV files into the workspace
+as a table and then columns of the table as variable array. Then, use the ”plot()” function to plot all
+the states and the x- and y- positions of end-effector versus time. The result is seen on figures below:
+
+
 
 
