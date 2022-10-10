@@ -77,3 +77,6 @@ For the manipulator to make a move along the X axis, we used the provided code a
 In order to draw rectangle we put 4 target points for the manipulator, the same method as for the previous task is used to set the target points, they are as follows: 0.5 in X axis, -1 by Y, -0.5 by X, and 0.5 by Y. At last code checks if the manipulator reached the desired position and breaks. Manipulator starts off straight, draws a rectangle and returns to the starting point. 
 ### Task 4 - Create a node that moves “end” to Draw a circle
 For the circle, we first set the radius of it. We also use the radius to give the circle center point. We start a while loop which depends on the variable “angle”, which iterates every movement by some angle. We used an iteration of 30 degrees for each movement. When the degrees reach and get over 360, which means it made a full circle, it stops. The cosine and sine are used to set target position points for the X and Y axis respectively.   
+
+#### Demo of the robot (click on the image):
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bATRCBn6058/0.jpg)](https://youtu.be/bATRCBn6058)
