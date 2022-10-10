@@ -1,7 +1,7 @@
 # ROBT 403: Laboratory
 
-All labs were done by the following group members:
-Yermakhan Kassym, Madina Yergibay, Akbayan Bakytzhanova, Soibkhon Khajikhan, Symbat Nurgazy.
+**All labs were done by the following group members:
+Yermakhan Kassym, Madina Yergibay, Akbayan Bakytzhanova, Soibkhon Khajikhan, Symbat Nurgazy.**
 
 
 
