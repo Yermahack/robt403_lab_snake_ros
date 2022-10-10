@@ -1,8 +1,8 @@
 # ROBT 403: Laboratory
 
-**Group members:
+**Group members:**
 
-Yermakhan Kassym, Madina Yergibay, Akbayan Bakytzhanova, Soibkhon Khajikhan, Symbat Nurgazy.**
+**Yermakhan Kassym, Madina Yergibay, Akbayan Bakytzhanova, Soibkhon Khajikhan, Symbat Nurgazy.**
 
 
 
