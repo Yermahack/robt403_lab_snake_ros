@@ -95,3 +95,29 @@ For the circle, we first set the radius of it. We also use the radius to give th
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bATRCBn6058/0.jpg)](https://youtu.be/bATRCBn6058)
 
 ## Laboratory 5
+### Introduction
+This laboratory is aimed to introduce students to the rosbag package in ROS. Then use the rosbag
+record for saving rostopics to CSV file and plot them in MATLAB.
+
+### Task 2.1: Using rosbag: Record the joint angles and the position of the endeffector in x- and y-axes
+After checking if the previously Configured MoveIt works and moving the robot in the Cartesian
+space, we have recorded the joint angles while the motion was happening. The ”rosbag record
+/robot/joint states” rosbag command was used to record the data in the topic /robot/joint states
+to a .bag file in the current directory.
+For recording the position of the end-effector in x- and y-axes, the C++ script was written
+where the new topics: ”end pub x” and ”end pub y” were published. The data from the movegroup.
+getCurrentPose() was collected to Float64 variables as seen in the code excerpt below.
+
+'''
+while ( r o s : : ok ( ) ) {
+s td msgs : : Float64 x msg , y msg ;
+cur r ent po s e = move group . getCur rentPose ( ) ;
+x msg . data = cur r ent po s e . pose . p o s i t i o n . x ;
+y msg . data = cur r ent po s e . pose . p o s i t i o n . y ;
+end x . publ i sh ( x msg ) ;
+end y . publ i sh ( y msg ) ;
+r o s : : spinOnce ( ) ;
+l o o p r a t e . s l e e p ( ) ;
+}
+'''
+
