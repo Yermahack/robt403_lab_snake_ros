@@ -127,6 +127,7 @@ new .bag files.
 
 To convert the .bag files created previously, the command ”rostopic echo -b my bag.bag /my topic name > my csv.csv” was used. The created bag files and the .csv files are seen on Figure below:
 
+![lab555](https://user-images.githubusercontent.com/58440414/194874340-89b574e1-aabe-4fe9-9bda-a818e1a1947c.png)
 
 
 ### Task 2.3 Import the CSV file into Matlab and show the joint angles in one plot the position in x and y in another plot
@@ -135,6 +136,8 @@ The csv files for joint angles is ”joint statesdata.csv” and for x- and y-po
 as a table and then columns of the table as variable array. Then, use the ”plot()” function to plot all
 the states and the x- and y- positions of end-effector versus time. The result is seen on figures below:
 
+![lab5_1](https://user-images.githubusercontent.com/58440414/194874374-cbec2aa5-f325-48c4-a2d0-5ca9370459c9.png)
 
+![lab4_2](https://user-images.githubusercontent.com/58440414/194874394-95660df0-da4c-44d9-8751-97c0d811c0b8.png)
 
 
