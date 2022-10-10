@@ -91,5 +91,5 @@ In order to draw rectangle we put 4 target points for the manipulator, the same 
 For the circle, we first set the radius of it. We also use the radius to give the circle center point. We start a while loop which depends on the variable “angle”, which iterates every movement by some angle. We used an iteration of 30 degrees for each movement. When the degrees reach and get over 360, which means it made a full circle, it stops. The cosine and sine are used to set target position points for the X and Y axis respectively.   
 ![circle](https://user-images.githubusercontent.com/57484946/194858220-6c45c1af-c673-4021-ab4a-379c7296d89c.jpg)
 
-#### Demo of the robot (click on the image):
+#### Laboratory 4 Video: Task 2 - Task 4 (click on the image):
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bATRCBn6058/0.jpg)](https://youtu.be/bATRCBn6058)
