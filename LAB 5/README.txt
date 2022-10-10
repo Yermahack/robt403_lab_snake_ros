@@ -1,5 +1,3 @@
-report: 
-
 video: video_recording_bag.mkv
 
 csv files: joint_statesdata.csv, our_x.csv, our_y.csv
