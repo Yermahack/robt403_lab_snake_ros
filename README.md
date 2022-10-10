@@ -73,10 +73,15 @@ Comparing these two graphs, we can see that current position is closer to goal p
 
 ### Task 2 - Create a node moves the “end” by 1.4 (in rviz units mm or m) along X axis
 For the manipulator to make a move along the X axis, we used the provided code and changed the target position into the desired one, 1.4. 
+![robot](https://user-images.githubusercontent.com/57484946/194858195-a3206055-a816-4fe2-ba5c-f0144d3adaec.png)
+
 ### Task 3 - Create a node that moves “end” to Draw a rectangle
 In order to draw rectangle we put 4 target points for the manipulator, the same method as for the previous task is used to set the target points, they are as follows: 0.5 in X axis, -1 by Y, -0.5 by X, and 0.5 by Y. At last code checks if the manipulator reached the desired position and breaks. Manipulator starts off straight, draws a rectangle and returns to the starting point. 
+![square](https://user-images.githubusercontent.com/57484946/194858215-c87fc158-ee89-4f8b-8c15-2f23819fce3f.jpg)
+
 ### Task 4 - Create a node that moves “end” to Draw a circle
 For the circle, we first set the radius of it. We also use the radius to give the circle center point. We start a while loop which depends on the variable “angle”, which iterates every movement by some angle. We used an iteration of 30 degrees for each movement. When the degrees reach and get over 360, which means it made a full circle, it stops. The cosine and sine are used to set target position points for the X and Y axis respectively.   
+![circle](https://user-images.githubusercontent.com/57484946/194858220-6c45c1af-c673-4021-ab4a-379c7296d89c.jpg)
 
 #### Demo of the robot (click on the image):
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bATRCBn6058/0.jpg)](https://youtu.be/bATRCBn6058)
