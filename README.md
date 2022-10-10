@@ -108,7 +108,7 @@ For recording the position of the end-effector in x- and y-axes, the C++ script 
 where the new topics: ”end pub x” and ”end pub y” were published. The data from the movegroup.
 getCurrentPose() was collected to Float64 variables as seen in the code excerpt below.
 
-'''
+```
 while ( r o s : : ok ( ) ) {
 s td msgs : : Float64 x msg , y msg ;
 cur r ent po s e = move group . getCur rentPose ( ) ;
@@ -119,5 +119,12 @@ end y . publ i sh ( y msg ) ;
 r o s : : spinOnce ( ) ;
 l o o p r a t e . s l e e p ( ) ;
 }
-'''
+```
+Then the code was run and ”rosbag record /end pub x” and ”rosbag record /end pub y” to create
+new .bag files.
+
+### Convert the rosbag file to CSV
+
+To convert the .bag files created previously, the command ”rostopic echo -b my bag.bag /my topic name > my csv.csv” was used. The created bag files and the .csv files are seen on Figure below:
+
 
