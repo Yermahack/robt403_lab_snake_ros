@@ -135,12 +135,12 @@ Created .bag files with the name which is usually a timestamp when the file is r
 The csv files for joint angles is ”joint statesdata.csv” and for x- and y-position of end-effector are
 ”our x.csv” and ”our y.csv”. The MATLAB code is written to import the CSV files into the workspace
 as a table and then columns of the table as variable array. Then, use the ”plot()” function to plot all
-the states and the x- and y- positions of end-effector versus time. The result is seen on figures below:
+the states and the x- and y- positions of end-effector versus time. The result are seen on figures below:
 
 ![lab5_1](https://user-images.githubusercontent.com/58440414/194874374-cbec2aa5-f325-48c4-a2d0-5ca9370459c9.png)
 
-Joint states while the end-effector is moving along x axis
+_Joint states while the end-effector is moving along x axis_
 
 ![lab4_2](https://user-images.githubusercontent.com/58440414/194874394-95660df0-da4c-44d9-8751-97c0d811c0b8.png)
 
-The position plot of the end-effector. The x position is moving while the y position is constant
+_The position plot of the end-effector. The x position is moving while the y position is constant_
