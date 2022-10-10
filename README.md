@@ -1,5 +1,10 @@
 # ROBT 403: Laboratory
 
+All labs were done by the following group members:
+Yermakhan Kassym, Madina Yergibay, Akbayan Bakytzhanova, Soibkhon Khajikhan, Symbat Nurgazy.
+
+
+
 ## Laboratory 3 
 ### Task 0 - Prerequisites [The 5 DOF planar robot packages were downloaded and compiled.]
 
